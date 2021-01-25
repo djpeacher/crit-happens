@@ -1,6 +1,7 @@
 {
   "expo": {
-    "name": "crit-happens",
+    "name": "Crit Happens",
+    "description": "Simple dice roller.",
     "slug": "crit-happens",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,11 +14,14 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.djpeacher.crithappens",
+      "buildNumber": "3",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3688130715004310~4458373157"
+      }
     },
     "android": {
       "adaptiveIcon": {
